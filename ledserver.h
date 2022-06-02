@@ -26,7 +26,6 @@ private:
     QTcpSocket* m_socket;
     quint16 m_port;
 
-    // Ansteuerung LEDs
     Gpio* m_gpio;
 
 };
